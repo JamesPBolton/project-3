@@ -16,34 +16,34 @@ You can see the files for the completed app on GitHub pages here.
 Brief
 
 We had to:
-Work in a team of four, using Git to code collaboratively
-Build a full-stack application by making our own backend and our own frontend
-Use an Express API to serve our data from a Mongo database
-Consume our API with a separate frontend built with React
-Create a complete product, which meant multiple relationships and CRUD functionality 
-Implement thoughtful user stories/wireframes, identifying the features that were core to MVP
-Ensure we developed a visually impressive design
-Deploy our app online
+* Work in a team of four, using Git to code collaboratively
+* Build a full-stack application by making our own backend and our own frontend
+* Use an Express API to serve our data from a Mongo database
+* Consume our API with a separate frontend built with React
+* Create a complete product, which meant multiple relationships and CRUD functionality 
+* Implement thoughtful user stories/wireframes, identifying the features that were core to MVP
+* Ensure we developed a visually impressive design
+* Deploy our app online
 
 
 Technologies Used
 
-HTML
-CSS
-JavaScript (ES6)
-React
-APIs
-Insomnia
-Express.js
-Webpack
-Node.js
-Axios
-Bulma
-Mapbox
-MongoDB
-Heroku
-Git and GitHub
-VS Code
+* HTML
+* CSS
+* JavaScript (ES6)
+* React
+* APIs
+* Insomnia
+* Express.js
+* Webpack
+* Node.js
+* Axios
+* Bulma
+* Mapbox
+* MongoDB
+* Heroku
+* Git and GitHub
+* VS Code
 
 Approach
 
@@ -63,6 +63,8 @@ This is the Home page, where the ‘Start Locally’ button takes the user to th
 
 This is the Locations page, which contains a list of venues near to the user:
 And this is the Login page:
+
+
 Lessons Learned
 
 A lot of lessons were learnt. The need to start the project by carefully considering the user experience, as well as all the coding that would entail, was a key lesson. Whiteboarding the overall plan for the website was an important part of that and something we did well, but perhaps could have done in greater detail. 
@@ -78,7 +80,7 @@ Writing the code for adding comments and ratings was a fiddly exercise that invo
 Most of the styling was done through Bulma, and that was also a learning experience. Manipulating the features of the website so that they displayed just as we wanted them to wasn’t easy. For example, I was working on making the search bar line up correctly with the ‘hot filter’ buttons on the Locations page and that took some careful thought. But once you’ve worked with Bulma on this sort of project the next time it will be much easier because I have this experience.
 
 I worked on the Locations page and ended up with a complex code block for the Bulma styling:
-
+```js
 <div className="notifications is-primary">						
         {filterLocations().map((location, index) => {				
           return <div key={index} >							
@@ -95,8 +97,10 @@ I worked on the Locations page and ended up with a complex code block for the Bu
                           </div>								
                         })}									
                       </div>								
-Another part of the code that was difficult to get right was the way the map page interacted with the user’s location. Making the map open at the location the user is based at required careful reading of the Map GL documentation, and the same was true of the editing the map location based on the API that we put in to convert a postcode to a set of coordinates:
 
+```
+Another part of the code that was difficult to get right was the way the map page interacted with the user’s location. Making the map open at the location the user is based at required careful reading of the Map GL documentation, and the same was true of the editing the map location based on the API that we put in to convert a postcode to a set of coordinates:
+```js
 // Updating position of map based on browser location	
   function useLocation() {						
     const newViewport = {						
@@ -121,14 +125,13 @@ Another part of the code that was difficult to get right was the way the map pag
         setViewPort(postCodeViewPort)				
       })										
   }											
-
+```
 One of the main successes of this project came from the deployment. Prior to this project we hadn’t deployed a project online and so working with Heroku and MongoDB was an extremely useful experience. Making it work in just a couple of hours was a great success, and brought a strong sense of satisfaction. 
 
 
 Bugs
 
 The site functions incredibly well, but the lack of data outside of London means the site is not very useful for people based elsewhere in the country. The Yelp API only covers London. We hardcoded the API string to search the whole of the UK, but when we were testing it in Insomnia we didn’t realise that it was only brining back details of businesses in the capital. We considered many other APIs, but for example Google’s data has to be paid for and so that wasn’t possible.
-
 
 
 Potential Future Features
