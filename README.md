@@ -12,6 +12,7 @@ Together we developed the full backend of the website and the full frontend, and
 
 You can see the files for the completed app on GitHub pages here.
 
+Link to the website: https://bit.ly/3qd2Jqf
 
 Brief
 
