@@ -10,9 +10,8 @@ This was the third project in the General Assembly Software Engineering Immersiv
 
 Together we developed the full backend of the website and the full frontend, and so it was an immersive experience that allowed us to practice a wide variety the coding skills that we’ve developed over the past few months.
 
-You can see the files for the completed app on GitHub pages here.
-
 Link to the website: https://bit.ly/3qd2Jqf
+
 
 Brief
 
@@ -46,6 +45,7 @@ Technologies Used
 * Git and GitHub
 * VS Code
 
+
 Approach
 
 The brief for this project was quite open and so we thought carefully about how we could make something that was both useful and relevant. We zeroed in on an idea to create a website that would help the user to locate environmentally friendly products near to their home. 
@@ -60,11 +60,10 @@ We wanted to create a complete user experience, and so the app includes function
 Screenshots
 
 This is the Home page, where the ‘Start Locally’ button takes the user to the Map page, which launches with their own coordinates. Note also the ‘Register’ and the ‘Login’ buttons on the navigation bar:
-
+![home_page](https://i.imgur.com/YX80vsK.png)
 
 This is the Locations page, which contains a list of venues near to the user:
-And this is the Login page:
-
+![loc_page](https://i.imgur.com/y15hG5E.png)
 
 Lessons Learned
 
