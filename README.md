@@ -1,7 +1,7 @@
 
 General Assembly - Software Engineering Immersive
 
-GreenWorld ♻️ - A MERN stack app
+GreenWorld ♻️  - A MERN stack app
 
 
 Overview
@@ -69,11 +69,11 @@ Lessons Learned
 
 A lot of lessons were learnt. The need to start the project by carefully considering the user experience, as well as all the coding that would entail, was a key lesson. Whiteboarding the overall plan for the website was an important part of that and something we did well, but perhaps could have done in greater detail. 
 
-Dividing the tasks up amongst the team and setting clear goals for the completion of code blocks was something we could have spent more time on, particularly in the earlier days of the project. However, we stayed on track on and met our targets as the project progressed. Spending time sharing our completed code through Git was crucial to the success of this and taking time to do it paid off.
+Dividing the tasks up amongst the team and setting clear goals for the completion of code blocks was something we could have spent more time on, particularly in the earlier days of the project. That meant the work was more challenging than it should have been because sometimes we were waiting for others to finish their sections. However, we stayed on track on and met our targets as the project progressed. Spending time sharing our completed code through Git was crucial to the success of this and taking time to do it paid off, so that was a clear win and gave us some invaluable experience for the future.
 
 We hadn’t used APIs with authentication keys prior to this project, so the detail of making that work gave us useful knowledge for the future. I worked on this part myself, and this involved understanding how to manipulate the API data so that it served our needs (mapping, etc.) and that built on the strong level of knowledge developed during project 2. The Yelp API was particularly advanced but it was exciting to see the ease in which I could make it work as the project progressed. 
 
-In addition, we included a second API that turned postcodes into coordinates (longitude and latitude), which enhances the user experience because if they add a new location they don’t need to also look for the coordinates - this is done automatically as the location renders on the map.
+In addition, we included a second API that turned postcodes into coordinates (longitude and latitude), which gave us another real win because it enhances the user experience because if they add a new location they don’t need to also look for the coordinates - this is done automatically as the location renders on the map.
 
 Writing the code for adding comments and ratings was a fiddly exercise that involved close attention to detail and a keen eye for spotting minor errors in the coding.
 
