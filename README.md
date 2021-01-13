@@ -1,10 +1,10 @@
 
-General Assembly - Software Engineering Immersive
+<h2>General Assembly - Software Engineering Immersive</h2>
 
-GreenWorld ♻️  - A MERN stack app
+<h1>GreenWorld ♻️  - A MERN stack app</h1>
 
 
-Overview
+<h3>Overview</h3>
 
 This was the third project in the General Assembly Software Engineering Immersive course. We built a MERN stack app - which means we used Mongo, Express, React and Node to put together a fully functioning application that we deployed via MongoDB and Heroku. Four of us worked on the app for seven days, and we then presented the completed app to the rest of the class.
 
@@ -13,7 +13,7 @@ Together we developed the full backend of the website and the full frontend, and
 Link to the website: https://bit.ly/3qd2Jqf
 
 
-Brief
+<h3>Brief</h3>
 
 We had to:
 * Work in a team of four, using Git to code collaboratively
@@ -26,7 +26,7 @@ We had to:
 * Deploy our app online
 
 
-Technologies Used
+<h3>Technologies Used</h3>
 
 * HTML
 * CSS
@@ -46,7 +46,7 @@ Technologies Used
 * VS Code
 
 
-Approach
+<h3>Approach</h3>
 
 The brief for this project was quite open and so we thought carefully about how we could make something that was both useful and relevant. We zeroed in on an idea to create a website that would help the user to locate environmentally friendly products near to their home. 
 
@@ -57,7 +57,7 @@ I discovered that the website Yelp produces a powerful API with thousands of bus
 We wanted to create a complete user experience, and so the app includes functionality such as signing up, creating a user profile and logging in. It also includes the ability to post, edit and delete comments, and users can add new locations as well. They can also rate the venues that they have visited by giving them from 1 to 5 stars.
 
 
-Screenshots
+<h3>Screenshots</h3>
 
 This is the Home page, where the ‘Start Locally’ button takes the user to the Map page, which launches with their own coordinates. Note also the ‘Register’ and the ‘Login’ buttons on the navigation bar:
 ![home_page](https://i.imgur.com/YX80vsK.png)
@@ -65,7 +65,7 @@ This is the Home page, where the ‘Start Locally’ button takes the user to th
 This is the Locations page, which contains a list of venues near to the user:
 ![loc_page](https://i.imgur.com/y15hG5E.png)
 
-Lessons Learned
+<h3>Lessons Learned</h3>
 
 A lot of lessons were learnt. The need to start the project by carefully considering the user experience, as well as all the coding that would entail, was a key lesson. Whiteboarding the overall plan for the website was an important part of that and something we did well, but perhaps could have done in greater detail. 
 
@@ -129,18 +129,18 @@ Another part of the code that was difficult to get right was the way the map pag
 One of the main successes of this project came from the deployment. Prior to this project we hadn’t deployed a project online and so working with Heroku and MongoDB was an extremely useful experience. Making it work in just a couple of hours was a great success, and brought a strong sense of satisfaction. 
 
 
-Bugs
+<h3>Bugs</h3>
 
 The site functions incredibly well, but the lack of data outside of London means the site is not very useful for people based elsewhere in the country. The Yelp API only covers London. We hardcoded the API string to search the whole of the UK, but when we were testing it in Insomnia we didn’t realise that it was only brining back details of businesses in the capital. We considered many other APIs, but for example Google’s data has to be paid for and so that wasn’t possible.
 
 
-Potential Future Features
+<h3>Potential Future Features</h3>
 
 GreenWorld already has a lot of functionality. With more data available it will be a genuinely useable website. Further functionality could include adding a more immersive map experience, such as a ‘Street View’ option, possibly with directions added in. 
 
 Focusing on the green theme, it would be interesting to include cycle routes and walking routes - two features that also focus on the mapping aspect of the site.
 
 
-Credits
+<h3>Credits</h3>
 
 Thanks to the rest of the GreenWorld team: Dec Burns, Baltasar Romero and Florian Wilisch.
